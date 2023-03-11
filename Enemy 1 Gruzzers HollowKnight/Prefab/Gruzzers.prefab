@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 6532790189763425149}
   - component: {fileID: 6532790189763425148}
   - component: {fileID: 6532790189763425147}
+  - component: {fileID: 1697641294}
   m_Layer: 0
   m_Name: Gruzzers
   m_TagString: Untagged
@@ -184,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80219c1e9069ae9479895ace2a42c1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 250
+  moveSpeed: 5
   moveDirection: {x: 1, y: 0.25}
   rightCheck: {fileID: 6532790189298523786}
   roofCheck: {fileID: 6532790188850099387}
@@ -199,6 +200,26 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   goingUp: 1
+--- !u!95 &1697641294
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6532790189763425146}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b50a71c843030eb4d9640a467beab6bd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &6532790189790715103
 GameObject:
   m_ObjectHideFlags: 0
